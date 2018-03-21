@@ -1,7 +1,7 @@
-package Nodo;
+package EstructuraDeDatosLineal.Nodo;
 
 /**
- * clase Nodo, para almacenar datos, estos forman las listas y sus variaciones
+ * clase EstructuraDeDatosLineal.Nodo, para almacenar datos, estos forman las listas y sus variaciones
  */
 public class Nodo <T> {
     /**
@@ -13,7 +13,7 @@ public class Nodo <T> {
     private T dato;
 
     /**
-     * constructor de la clase Nodo
+     * constructor de la clase EstructuraDeDatosLineal.Nodo
      * @param dato
      */
     public Nodo(T dato) {
@@ -23,7 +23,7 @@ public class Nodo <T> {
     }
 
     /**
-     * metodo para obtener el siguiente Nodo
+     * metodo para obtener el siguiente EstructuraDeDatosLineal.Nodo
      * @return siguiente
      */
     public Nodo getSiguiente() {
@@ -39,7 +39,7 @@ public class Nodo <T> {
     }
 
     /**
-     * metodo para obtener el Nodo anterior
+     * metodo para obtener el EstructuraDeDatosLineal.Nodo anterior
      * @return anterior
      */
     public Nodo getAnterior() {
