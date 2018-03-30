@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b6111e9a-f4f0-4b32-bcda-cf342ccd8bc5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/EstructuraDeDatosLineal/Listas/Lista.java" afterPath="$PROJECT_DIR$/src/EstructuraDeDatosLineal/Listas/Lista.java" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,16 +18,36 @@
     <favorites_list name="Proyecto1_SpaceInvaders" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Lista.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/EstructuraDeDatosLineal/Listas/Lista.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-388">
-              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="680">
+              <caret line="150" column="31" lean-forward="false" selection-start-line="150" selection-start-column="31" selection-end-line="150" selection-end-column="31" />
               <folding>
+                <element signature="method#Lista#0;class#Lista#0" expanded="false" />
+                <element signature="method#estaVacia#0;class#Lista#0" expanded="false" />
+                <element signature="method#existe#0;class#Lista#0" expanded="false" />
                 <element signature="method#agregar#0;class#Lista#0" expanded="false" />
                 <element signature="method#imprimirL#0;class#Lista#0" expanded="false" />
+                <element signature="method#eliminar#0;class#Lista#0" expanded="false" />
+                <element signature="e#4377#4378#0" expanded="true" />
+                <element signature="e#4407#4408#0" expanded="true" />
+                <element signature="e#4553#4554#0" expanded="true" />
+                <element signature="e#4591#4592#0" expanded="true" />
+                <element signature="e#4915#4916#0" expanded="true" />
+                <element signature="e#4957#4958#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListaSimple.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../../2017/2017 semestre II/DashBoard/org.tec/datastructures/DatosLineales/ListaSimple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1462">
+              <caret line="86" column="13" lean-forward="false" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -34,8 +55,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="425">
+              <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,8 +67,8 @@
       <file leaf-file-name="ListaDoble.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EstructuraDeDatosLineal/Listas/ListaDoble.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="136">
+              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -78,8 +99,8 @@
         <option value="$PROJECT_DIR$/src/EstructuraDeDatosLineal/Listas/ListaSimple.java" />
         <option value="$PROJECT_DIR$/../../../../2017/2017 semestre II/DashBoard/org.tec/datastructures/DatosLineales/ListaSimple.java" />
         <option value="$PROJECT_DIR$/src/EstructuraDeDatosLineal/Listas/ListaDoble.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/EstructuraDeDatosLineal/Listas/Lista.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -89,11 +110,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -113,7 +134,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,9 +167,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,7 +312,11 @@
       <option name="presentableId" value="Default" />
       <updated>1521579621596</updated>
       <workItem from="1521579629915" duration="53000" />
-      <workItem from="1521579767730" duration="9060000" />
+      <workItem from="1521579767730" duration="9665000" />
+      <workItem from="1521870489765" duration="10000" />
+      <workItem from="1522135477700" duration="9564000" />
+      <workItem from="1522307748726" duration="1888000" />
+      <workItem from="1522376393773" duration="663000" />
     </task>
     <task id="LOCAL-00001" summary="Comienza La creacion de las clases de tipo Lista, para la ubicacion de los enemigos">
       <created>1521580076997</created>
@@ -335,43 +360,50 @@
       <option name="project" value="LOCAL" />
       <updated>1521613595820</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Progreso con la construccion de las listas">
+      <created>1521614331202</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1521614331202</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9113000" />
+    <option name="totallyTimeSpent" value="21843000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.49448818" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2655068" sideWeight="0.49448818" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5055118" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,38 +419,172 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../../2017/2017 semestre II/DashBoard/org.tec/datastructures/DatosLineales/NodeLista.java">
+    <entry file="file://$PROJECT_DIR$/src/EstructuraDeDatosLineal/Listas/Lista.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#Lista#0;class#Lista#0" expanded="false" />
+            <element signature="method#estaVacia#0;class#Lista#0" expanded="false" />
+            <element signature="method#existe#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregar#0;class#Lista#0" expanded="false" />
+            <element signature="method#imprimirL#0;class#Lista#0" expanded="false" />
+            <element signature="method#eliminar#0;class#Lista#0" expanded="false" />
+            <element signature="e#4377#4378#0" expanded="true" />
+            <element signature="e#4407#4408#0" expanded="true" />
+            <element signature="e#4553#4554#0" expanded="true" />
+            <element signature="e#4591#4592#0" expanded="true" />
+            <element signature="e#4915#4916#0" expanded="true" />
+            <element signature="e#4957#4958#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../../2017/2017 semestre II/DashBoard/org.tec/datastructures/DatosLineales/ListaSimple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1326">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="1462">
+          <caret line="86" column="13" lean-forward="false" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding>
-            <element signature="method#ListaSimple#0;class#ListaSimple#0" expanded="false" />
-            <element signature="method#remove#0;class#ListaSimple#0" expanded="false" />
-            <element signature="method#delete#0;class#ListaSimple#0" expanded="false" />
-            <element signature="method#get#0;class#ListaSimple#0" expanded="false" />
-            <element signature="method#getNode#0;class#ListaSimple#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EstructuraDeDatosLineal/Nodo/Nodo.java">
+    <entry file="file://$PROJECT_DIR$/src/EstructuraDeDatosLineal/Listas/ListaDoble.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EstructuraDeDatosLineal/Listas/Lista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#Lista#0;class#Lista#0" expanded="false" />
+            <element signature="method#estaVacia#0;class#Lista#0" expanded="false" />
+            <element signature="method#existe#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregar#0;class#Lista#0" expanded="false" />
+            <element signature="method#imprimirL#0;class#Lista#0" expanded="false" />
+            <element signature="method#eliminar#0;class#Lista#0" expanded="false" />
+            <element signature="e#4377#4378#0" expanded="true" />
+            <element signature="e#4407#4408#0" expanded="true" />
+            <element signature="e#4553#4554#0" expanded="true" />
+            <element signature="e#4591#4592#0" expanded="true" />
+            <element signature="e#4915#4916#0" expanded="true" />
+            <element signature="e#4957#4958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../2017/2017 semestre II/DashBoard/org.tec/datastructures/DatosLineales/ListaSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="13" lean-forward="false" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EstructuraDeDatosLineal/Listas/ListaDoble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EstructuraDeDatosLineal/Listas/Lista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#Lista#0;class#Lista#0" expanded="false" />
+            <element signature="method#estaVacia#0;class#Lista#0" expanded="false" />
+            <element signature="method#existe#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregar#0;class#Lista#0" expanded="false" />
+            <element signature="method#imprimirL#0;class#Lista#0" expanded="false" />
+            <element signature="method#eliminar#0;class#Lista#0" expanded="false" />
+            <element signature="e#4377#4378#0" expanded="true" />
+            <element signature="e#4407#4408#0" expanded="true" />
+            <element signature="e#4553#4554#0" expanded="true" />
+            <element signature="e#4591#4592#0" expanded="true" />
+            <element signature="e#4915#4916#0" expanded="true" />
+            <element signature="e#4957#4958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EstructuraDeDatosLineal/Listas/ListaDoble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EstructuraDeDatosLineal/Listas/Lista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#Lista#0;class#Lista#0" expanded="false" />
+            <element signature="method#estaVacia#0;class#Lista#0" expanded="false" />
+            <element signature="method#existe#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregar#0;class#Lista#0" expanded="false" />
+            <element signature="method#imprimirL#0;class#Lista#0" expanded="false" />
+            <element signature="method#eliminar#0;class#Lista#0" expanded="false" />
+            <element signature="e#4377#4378#0" expanded="true" />
+            <element signature="e#4407#4408#0" expanded="true" />
+            <element signature="e#4553#4554#0" expanded="true" />
+            <element signature="e#4591#4592#0" expanded="true" />
+            <element signature="e#4915#4916#0" expanded="true" />
+            <element signature="e#4957#4958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -430,23 +596,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../2017/2017 semestre II/DashBoard/org.tec/datastructures/DatosLineales/NodeLista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EstructuraDeDatosLineal/Nodo/Nodo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EstructuraDeDatosLineal/Listas/ListaDoble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="425">
+          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../2017/2017 semestre II/DashBoard/org.tec/datastructures/DatosLineales/ListaSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="13" lean-forward="false" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/EstructuraDeDatosLineal/Listas/Lista.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-388">
-          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="680">
+          <caret line="150" column="31" lean-forward="false" selection-start-line="150" selection-start-column="31" selection-end-line="150" selection-end-column="31" />
           <folding>
+            <element signature="method#Lista#0;class#Lista#0" expanded="false" />
+            <element signature="method#estaVacia#0;class#Lista#0" expanded="false" />
+            <element signature="method#existe#0;class#Lista#0" expanded="false" />
             <element signature="method#agregar#0;class#Lista#0" expanded="false" />
             <element signature="method#imprimirL#0;class#Lista#0" expanded="false" />
+            <element signature="method#eliminar#0;class#Lista#0" expanded="false" />
+            <element signature="e#4377#4378#0" expanded="true" />
+            <element signature="e#4407#4408#0" expanded="true" />
+            <element signature="e#4553#4554#0" expanded="true" />
+            <element signature="e#4591#4592#0" expanded="true" />
+            <element signature="e#4915#4916#0" expanded="true" />
+            <element signature="e#4957#4958#0" expanded="true" />
           </folding>
         </state>
       </provider>

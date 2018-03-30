@@ -11,8 +11,8 @@ public class Lista<T> {
      * atributos de la clase lista, uno de Tipo EstructuraDeDatosLineal.Nodo para almacenar informacion, y otro de tipo Int para hacer
      * un "indice"
      */
-    private Nodo primero;
-    private int capacidad;
+    protected Nodo primero;
+    protected int capacidad;
 
 
     /**
@@ -35,6 +35,7 @@ public class Lista<T> {
 
     /**
      * metodo para comprobar si un nodo Existe
+     * @param nodo
      */
     public boolean existe(Nodo nodo){
         if (this.estaVacia()){
@@ -52,12 +53,13 @@ public class Lista<T> {
 
     /**
      * metodo para agregar al final de la lista
+     * @param data
      */
     public void agregar(T data){
         Nodo nodo = new Nodo(data);
         if (this.estaVacia()) {
             this.primero = nodo;
-            this.capacidad += 1;
+            this.capacidad ++;
 
         }else{
             Nodo aux = this.primero;
@@ -65,6 +67,7 @@ public class Lista<T> {
                 aux = aux.getSiguiente();
             }
             aux.setSiguiente(nodo);
+            this.capacidad++;
         }
 
     }
@@ -77,11 +80,113 @@ public class Lista<T> {
             System.out.println("La Lista Esta Vacia");
         else {
             Nodo aux = this.primero;
-            while (aux!=null){
-                System.out.println(aux.getDato());
+            System.out.print("[");
+            while (aux.getSiguiente()!=null){
+                System.out.print(aux.getDato()+",");
                 aux=aux.getSiguiente();
+            }System.out.println(aux.getDato()+"]");
+        }
+    }
 
+    /**
+     *metodo para eliminar un nodo por referencia
+     * @param indice
+     */
+    public void eliminar(int indice){
+        if (this.estaVacia())
+            System.out.println("Lista Vacia");
+        else{
+            Nodo aux = this.primero;
+            if (indice == 0){
+                this.primero=this.primero.getSiguiente();
+                capacidad--;
+            }else if(indice < capacidad){
+                int contador=0;
+                while((indice-1)!=contador){
+                    aux=aux.getSiguiente();
+                    contador++;
+                }
+                aux.setSiguiente(aux.getSiguiente().getSiguiente());
+                this.capacidad--;
+            }else{
+                System.out.println("Indici fuera de limites");
             }
         }
+
+    }
+
+    /**
+     * metodo para eliminar por valor
+     * @param data
+     */
+    public void eliminarDato(T data){
+        if(this.estaVacia()){
+            System.out.println("Lista Vacia");
+        }else{
+            Nodo aux = this.primero;
+            int pos_aux = 0;
+            int contador = 0;
+            if (aux.getDato().equals(data)){
+                eliminar(pos_aux);
+                contador++;
+                capacidad--;
+            }else{
+                aux=aux.getSiguiente();
+                pos_aux++;
+                while(aux.getSiguiente()!=null){
+                    if(aux.equals(data)) {
+                        eliminar(pos_aux);
+                        pos_aux++;
+                        aux=aux.getSiguiente();
+                        this.capacidad--;
+                        contador++;
+
+                    }else{
+                        aux=aux.getSiguiente();
+                        pos_aux++;
+                    }
+                }if(aux.getDato().equals(data)){
+                    eliminar(pos_aux);
+                    capacidad--;
+                    contador++;
+                }
+                if(contador==0)
+                    System.out.println("El Dato: "+data+" no esta en la Lista");
+            }
+        }
+    }
+
+    //Getters Y Setters de la Clase Lista
+    /**
+     * metodo para obtener el primer elemento de la Lista
+     * @return primero
+     */
+    public Nodo getPrimero() {
+        return primero;
+    }
+
+    /**
+     * metodo para definir el primer elemento de la clase lista
+     * @param primero
+     */
+    public void setPrimero(Nodo primero) {
+        this.primero = primero;
+    }
+
+    /**
+     * metodo para obtener la capacidad de la lista
+     * @return capacidad
+     */
+    public int getCapacidad() {
+        System.out.println(capacidad);
+        return capacidad;
+    }
+
+    /**
+     * metodo para definir la capacidad
+     * @param capacidad
+     */
+    public void setCapacidad(int capacidad) {
+        this.capacidad = capacidad;
     }
 }
